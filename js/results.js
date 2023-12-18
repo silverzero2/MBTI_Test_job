@@ -13,7 +13,7 @@ const jobEls = document.querySelectorAll('.job');
 // const lectureImgEl = document.querySelector('.lecture img');
 
 titleEl.innerHTML = result.title;
-characterEl.src = result.character;
+characterEl.src = "."+result.character;
 boxEls.forEach(function(boxEl, index){
   boxEl.innerHTML = result.results[index]
 });
