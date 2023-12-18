@@ -38,7 +38,8 @@ function nextQuestion(choiceNumber){
 
 function showResultPage(){
   //쿼리스트링
-  location.href = '/results.html?mbti='+mbti
+  //location.href = '/results.html?mbti='+mbti
+  location.href = '../results.html?mbti='+mbti
 };
 
 choice1El.addEventListener('click',function(){
